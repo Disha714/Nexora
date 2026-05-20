@@ -109,10 +109,3 @@ Once the server is running, open your browser and go to:
 
 ---
 
-## Contributors
-
-- **Mayank Gupta**
-- **Sai Disha N** 
-- **Nidhi S Mugali**
-- **Joel Jacob**
-- **Vibha Jaikanthan**
