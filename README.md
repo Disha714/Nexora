@@ -67,10 +67,16 @@
 
 ```
 nexora/
+├── backend/
+│   ├── fetch.py            # Gmail API + OAuth handling
+│   ├── categorize.py       # AI model to classify emails
+│   ├── delete.py           # Email deletion + draft cleanup
+│   ├── unsubscribe.py      # Bulk unsubscribe logic
 │
 ├── static/
-│   └── your-banner.png         # Top banner image for README/UI
-│   └── styles.css              # Shared styles
+│   ├── banner.png
+│   ├── dynamic/
+│   ├── icons/
 │
 ├── templates/
 │   ├── index.html
@@ -78,18 +84,14 @@ nexora/
 │   ├── main.html
 │   ├── categorize.html
 │   ├── delete.html
-│   ├── drafts.html
+│   ├── draft.html
 │   ├── unsubscribe.html
 │
-├── fetch.py                    # Gmail API + OAuth handling
-├── categorize.py               # AI model to classify emails
-├── delete.py                   # Email deletion + draft cleanup
-├── unsubscribe.py              # Bulk unsubscribe logic
-├── server.py                   # Flask routes & logic
-└── requirements.txt            # Python package dependencies
+├── server.py               # Flask app entry point
+├── requirements.txt        # Dependencies
+├── README.md
 ```
 
----
 
 ## How to Run Locally
 
